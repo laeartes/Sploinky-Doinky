@@ -1,11 +1,7 @@
 body
 {
-    background-color: black;
+    background-color: grey;
+    color:aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.zygal
-{
-    
-    color:aqua;
-}

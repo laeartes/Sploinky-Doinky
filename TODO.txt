@@ -4,7 +4,18 @@ viso 80 euru tai kiekvienas po 13 turi sumoket, bet pvz justui tai reik kad graz
 
 0. isskaidyt zingsnius i smulkesnius. ir pasidalinti kas ka darys
 1. biski pagrazint ideja kad tiksliau butu
-2. idet i html input fieldus kuriuose detume ko mum ka reikia. Tikriausiai reikes pridet dar mygtuka su kuriuo sukursi extra fieldu 
+2. idet i html input fieldus kuriuose detume ko mum ka reikia. Tikriausiai reikes pridet dar mygtuka su kuriuo sukursi extra fieldu:
+        1. SECTION participantam
+        2. h2 pavadinime
+        3. div kuriame bus dynjamically idedami participant rowsai
+        4. mygtukas kuri prideda nauja participant row
+        5. atskira sekcija tada kurioje bus controlsai: calculate, save
+        6. atskira sekcijha rezultatam
+        7. ir tada mes turesim atskira page kuriame bus event planneris
+        8. ji veliau sumastysiu
 3. parasyt javascripta kad kalkuliuotu ka mum reikia
 4. css
+
+
+
 
