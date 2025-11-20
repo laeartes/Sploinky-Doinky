@@ -1,5 +1,3 @@
-//???
-
 function init()
 {
     document.getElementById('addPart').addEventListener('click', () => addParticipantRow());
@@ -45,11 +43,6 @@ function generateID()
     return 'p-' + Math.random().toString(36).substring(2,9);
 }
 
-
-function removeParticipantRow()
-{
-
-}
 
 function readParticipantsFromDOM()
 {
