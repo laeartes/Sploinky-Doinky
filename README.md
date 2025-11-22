@@ -1,4 +1,4 @@
-# sveiki čia buvo greta
+## Money transfers calculation application ??
 ---
 
 ### Functionality
