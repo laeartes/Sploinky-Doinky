@@ -1,2 +1,1 @@
-# sup nerds
-krw blet
+# sveiki čia buvo greta
