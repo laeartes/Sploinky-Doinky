@@ -115,38 +115,36 @@ function computeTransfers(totals) {
     skolingas.balance -= kiekis;
     pinigingas.balance -= kiekis;
 
-    if (skolingas.balance<0.01) i++;
-    if (pinigingas.balance<0.01) j++;
+    if (skolingas.balance < 0.01) i++;
+    if (pinigingas.balance < 0.01) j++;
   }
   return transfers;
 }
 
-function renderSummary() {} //gal net nereikes sito.. veliau pamastysiu
+function renderSummary() { } //gal net nereikes sito.. veliau pamastysiu
 
-function renderTransfers(transfers) 
-{
-    const container = document.getElementById('transfers');
-    container.innerHTML = "";
+function renderTransfers(transfers) {
+  const container = document.getElementById('transfers');
+  container.innerHTML = "";
 
-    const title = document.createElement('h3');
-    title.textContent = "Pervedimai";
-    container.appendChild(title);
+  const title = document.createElement('h3');
+  title.textContent = "Pervedimai";
+  container.appendChild(title);
 
-    if(transfers.length === 0)
-    {
-        const p = document.createElement('p');
-        p.textContent = "allg bro";
-        container.appendChild(p);
-        return;
-    }
+  if (transfers.length === 0) {
+    const p = document.createElement('p');
+    p.textContent = "allg bro";
+    container.appendChild(p);
+    return;
+  }
 
-    transfers.forEach(t=>{
+  transfers.forEach(t => {
 
-        const div = document.createElement('div');
-        div.className = "transferRow";
-        div.textContent = `${t.from} → ${t.to}: ${t.amount.toFixed(2)} €`;
-        container.appendChild(div);
-    });
+    const div = document.createElement('div');
+    div.className = "transferRow";
+    div.textContent = `${t.from} → ${t.to}: ${t.amount.toFixed(2)} €`;
+    container.appendChild(div);
+  });
 }
 
 function onCalcClick() {
@@ -156,7 +154,7 @@ function onCalcClick() {
   renderTransfers(transfers);
 }
 
-function onSaveClick() {}
+function onSaveClick() { }
 
 document.addEventListener("DOMContentLoaded", () => {
   init();
