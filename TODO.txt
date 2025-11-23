@@ -1,6 +1,7 @@
-oo dar nu cia nelabai original bet tipo man buna uzknisa kai tipo kazka darai su draugais ir metiesi ant kazko ir po to reikia exceli kurt ir surasinet kas uz ka mokejo tai butu nice koks websaitas kur suvedi kas uz ka mokejo ir tau atomatiskai suskaiciuoja koks optimaliausias pervedimu skaicius tipo pvz
-justas sumokejo 50 euru  greta sumokeju 20 euru arnas sumokejo 10 euru, o mykolas zygis ir vytaute nieko nesumokejo,
-viso 80 euru tai kiekvienas po 13 turi sumoket, bet pvz justui tai reik kad grazintu o mykolas tarkim turi pervesti justui. nu ir buna kad tipo nelygiai iseina ir vienas zmogus turi vest keliems ir zdz butu faina jei optimaliausia buda galima apskaiciuot ir pridet tokiu features kur tipo issaugo tavo istorija ar kazka tokio     ar dar koki eventu planneri kur visi gali susizymet kada yra laisvi
+ideja: skaiciuoti pinigu transferius ir taip pat atskiras htmlas event planneris 
+(visi isistato sau tinkamas datas)
+
+
 
 0. DONE isskaidyt zingsnius i smulkesnius. ir pasidalinti kas ka darys
 1. DONE biski pagrazint ideja kad tiksliau butu
