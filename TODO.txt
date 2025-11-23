@@ -2,19 +2,25 @@ oo dar nu cia nelabai original bet tipo man buna uzknisa kai tipo kazka darai su
 justas sumokejo 50 euru  greta sumokeju 20 euru arnas sumokejo 10 euru, o mykolas zygis ir vytaute nieko nesumokejo,
 viso 80 euru tai kiekvienas po 13 turi sumoket, bet pvz justui tai reik kad grazintu o mykolas tarkim turi pervesti justui. nu ir buna kad tipo nelygiai iseina ir vienas zmogus turi vest keliems ir zdz butu faina jei optimaliausia buda galima apskaiciuot ir pridet tokiu features kur tipo issaugo tavo istorija ar kazka tokio     ar dar koki eventu planneri kur visi gali susizymet kada yra laisvi
 
-0. isskaidyt zingsnius i smulkesnius. ir pasidalinti kas ka darys
-1. biski pagrazint ideja kad tiksliau butu
-2. idet i html input fieldus kuriuose detume ko mum ka reikia. Tikriausiai reikes pridet dar mygtuka su kuriuo sukursi extra fieldu:
-        1. SECTION participantam
-        2. h2 pavadinime
-        3. div kuriame bus dynjamically idedami participant rowsai
-        4. mygtukas kuri prideda nauja participant row
-        5. atskira sekcija tada kurioje bus controlsai: calculate, save
+0. DONE isskaidyt zingsnius i smulkesnius. ir pasidalinti kas ka darys
+1. DONE biski pagrazint ideja kad tiksliau butu
+2. (zygis) In PROGRESS idet i html input fieldus kuriuose detume ko mum ka reikia. Tikriausiai reikes pridet dar mygtuka su kuriuo sukursi extra fieldu:
+        1. DONE SECTION participantam 
+        2. DONE h2 pavadinime 
+        3. DONE div kuriame bus dynjamically idedami participant rowsai 
+        4. DONE mygtukas kuri prideda nauja participant row
+        5. DONE atskira sekcija tada kurioje bus controlsai: calculate, save
         6. atskira sekcijha rezultatam
-        7. ir tada mes turesim atskira page kuriame bus event planneris
-        8. ji veliau sumastysiu
-3. parasyt javascripta kad kalkuliuotu ka mum reikia
-4. css
+        7. ir tada mes turesim atskira page kuriame bus event planneris:
+                1. zygi go go pamastyk sita padaryk kai grisi
+3. (mykolas) IN PROGRESS parasyt javascripta kad kalkuliuotu ka mum reikia:
+        1. DONE paima data is input fieldu
+        2. DONE apskaiciuoja kiek kas kam perveda
+        3. save
+        4. event planner 
+        5. summary or sth
+4. (greta) NOT STARTED css:
+        1. greta jei nores pati uzsipildys cia, cia jau jos magijos prasides
 
 
 
