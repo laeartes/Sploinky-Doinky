@@ -22,7 +22,7 @@ ideja: skaiciuoti pinigu transferius ir taip pat atskiras htmlas event planneris
         5. summary or sth
 4. (greta) NOT STARTED css:
         1. greta jei nores pati uzsipildys cia, cia jau jos magijos prasides
-	2. nepamirsk custom klasių kurių nėra htmle - daug ką generuoju per js, ko nėra by default htmle
+	2.(reikia kad graziai atrodytu viskas :) nepamirsk custom klasių kurių nėra htmle - daug ką generuoju per js, ko nėra by default htmle
 
 
 C
