@@ -5,17 +5,23 @@
 :root
 {
     /* PINKS */
---blush-petal: #FFECEE;
---cotton-candy: #FFE0E6;
---rosewater: #FFD4DE;
---strawberry: #FFC9D6;
---cherry: #FEBDCE;
---macaron: #FEB1C6;
+    --blush-petal: #FFECEE;
+    --cotton-candy: #FFE0E6;
+    --rosewater: #FFD4DE;
+    --strawberry: #FFC9D6;
+    --cherry: #FEBDCE;
+    --macaron: #FEB1C6;
+
+    --pink-main: #ffd6e7;      
+    --pink-light: #ffe6f1;      
+    --pink-medium: #ffb8d0;     
+    --pink-dark: #e39cb8;       
+    --pink-rose: #f3ccda;
 
     /* DARKS */
---black-bean: #370808;
---cordovan: #8B3C46;
---brown: #91716b;
+    --black-bean: #370808;
+    --cordovan: #8B3C46;
+    --brown: #91716b;
 
 }
 
@@ -32,7 +38,8 @@ body
     background-attachment: fixed;
 
     /* FONT */
-    font-family: Garamond, serif;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 15 px;
 
     /* RESET THIS CRAP */
     margin: 0;
@@ -52,7 +59,37 @@ body
     background-image: url(forCSS/checkbgww.png);
     padding-bottom: 40px;
     min-height: 100vh;
+    position: relative;
+
 }
+
+
+/*=================================================
+  CUTE LITTLE LACE BORDER
+  =================================================*/
+.page-wrapper::before,
+.page-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    width: 40px;
+    background-image: url(forCSS/b5bda989001fd0d97d13c0835f146d963c471e9b2.png); 
+    background-size: 100% auto;  
+    background-repeat: repeat-y;     
+}
+
+.page-wrapper::before {
+    left: -40px;
+}
+
+.page-wrapper::after {
+    right: -40px;
+    transform: scaleX(-1);
+    transform-origin: center;
+}
+
 
 
 /*=================================================
@@ -61,7 +98,7 @@ body
 .page-title 
 {
     /* TEXT FORMATTING */
-    font-family: "Georgia", "Times New Roman", serif;
+    /*font-family: "Georgia", "Times New Roman", serif;*/
     font-size: 70px;
     font-weight: bold;
     color: var(--brown);
@@ -72,6 +109,7 @@ body
     width: 900px;                     
     height: 150px;                    
     border: 3px solid var(--black-bean);
+    border-radius: 10px;
     background: linear-gradient(to right, var(--cotton-candy), white); 
 
     display: flex;                   
@@ -83,39 +121,82 @@ body
 
 .calculator {
 
-    width: 900px;
+    width: 890px;
     margin: 20px auto;           
     padding: 20px;
 
-    background: var(--cotton-candy);
-    border: 3px solid var(--black-bean)
+    background-image: url(forCSS/lacebg.png); 
+    border: 3px solid var(--black-bean);
+    border-radius: 10px;
 
+    font-size: 15px;
+    color: var(--black-bean);
+
+}
+.calculator h2 {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
-.transferRow
-{
+.transferRow {
+
     
 }
 
-.removePart
+.removePart {
+    background-color: var(--brown);
+    border: 2px solid var(--black-bean);
+    border-radius: 10px;
 
-{
+    font-size: 15 px;
+    color: white;
+    font-weight: bold;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.removePart:hover {
+  background-color: var(--black-bean);
+  color: var(--pink-rose);
+
+  transform: scale(1.25);  
+}
+
+.partRow {
+  
+    display: flex;
+    gap: 5px 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: var(--blush-petal); 
+    border: 2px solid var(--black-bean);
+}
+
+.partName {
 
 }
 
-.partRow
-{
+#addPart {
+    background-color: var(--brown);
+    border: 2px solid var(--black-bean);
+    border-radius: 10px;
 
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-.partName
-{
+#addPart:hover {
+  background-color: var(--black-bean);
+  color: var(--pink-rose);
 
-}
-
-.removePart
-{
-
+  transform: scale(1.25); 
 }
 
