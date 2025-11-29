@@ -91,6 +91,12 @@ body
 }
 
 
+.credits {
+  text-align: center;
+  font-size: 10px;
+  color: var(--pink-dark);
+}
+
 
 /*=================================================
   PAGE TITLE
@@ -110,7 +116,7 @@ body
     height: 150px;                    
     border: 3px solid var(--black-bean);
     border-radius: 10px;
-    background: linear-gradient(to right, var(--cotton-candy), white); 
+    background: linear-gradient(to right, var(--pink-main), white); 
 
     display: flex;                   
     align-items: flex-end;           
@@ -141,8 +147,13 @@ body
 
 
 .transferRow {
+  font-size: 20px;
 
     
+}
+
+#transfers h3 {
+  font-size: 30px;
 }
 
 .removePart {
@@ -171,12 +182,27 @@ body
     margin-bottom: 5px;
     padding: 8px;
     border-radius: 10px;
-    background-color: var(--blush-petal); 
+    background-color: var(--pink-light); 
     border: 2px solid var(--black-bean);
 }
 
-.partName {
+.partName,
+.partPaid {
+    border: 2px solid var(--pink-medium);
+    border-radius: 10px;
 
+    padding: 2px 2px 2px 5px;
+
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.partName:focus,
+.partPaid:focus {
+    border-color: var(--cotton-candy);
+    box-shadow: 0 0 5px var(--pink-medium);
+    outline: none;
 }
 
 #addPart {
@@ -200,3 +226,57 @@ body
   transform: scale(1.25); 
 }
 
+#Calculate {
+    background-color: var(--brown);
+    border: 2px solid var(--black-bean);
+    border-radius: 10px;
+
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
+}
+
+#Calculate:hover {
+  background-color: var(--black-bean);
+  color: var(--pink-rose);
+
+  transform: scale(1.25); 
+}
+
+#Save {
+    background-color: var(--brown);
+    border: 2px solid var(--black-bean);
+    border-radius: 10px;
+
+    margin-left: 8px;
+
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#Save:hover {
+  background-color: var(--black-bean);
+  color: var(--pink-rose);
+
+  transform: scale(1.25); 
+}
+
+#results {
+  background-image: url(forCSS/cushionbg.jpg);
+
+  padding: 10px 15px 10px 15px;
+  margin-top: 15px;
+
+  border: 3px solid var(--pink-rose);
+  border-radius: 10px;
+}
