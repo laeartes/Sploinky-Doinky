@@ -18,14 +18,14 @@ function addParticipantRow(name = "", paid = "") {
   const nameInput = document.createElement("input");
   nameInput.type = "text";
   nameInput.className = "partName";
-  nameInput.placeholder = "Vardenis";
+  nameInput.placeholder = "Name";
   nameInput.value = name;
 
   const paidInput = document.createElement("input");
   paidInput.type = "number";
   paidInput.className = "partPaid";
   paidInput.step = "0.01";
-  paidInput.placeholder = "Sumokėjo???";
+  paidInput.placeholder = "Amount paid";
   paidInput.value = paid;
 
   const removeBtn = document.createElement("button");
