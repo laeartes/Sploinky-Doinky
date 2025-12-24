@@ -1,30 +1,10 @@
-ideja: skaiciuoti pinigu transferius ir taip pat atskiras htmlas event planneris 
-(visi isistato sau tinkamas datas)
-
-
-
-0. DONE isskaidyt zingsnius i smulkesnius. ir pasidalinti kas ka darys
-1. DONE biski pagrazint ideja kad tiksliau butu
-2. (zygis) In PROGRESS idet i html input fieldus kuriuose detume ko mum ka reikia. Tikriausiai reikes pridet dar mygtuka su kuriuo sukursi extra fieldu:
-        1. DONE SECTION participantam 
-        2. DONE h2 pavadinime 
-        3. DONE div kuriame bus dynjamically idedami participant rowsai 
-        4. DONE mygtukas kuri prideda nauja participant row
-        5. DONE atskira sekcija tada kurioje bus controlsai: calculate, save
-        6. atskira sekcijha rezultatam
-        7. ir tada mes turesim atskira page kuriame bus event planneris:
-                1. zygi go go pamastyk sita padaryk kai grisi (reikia kad butu galima inputtint datas ir butu ale kalendoriui skirtas div, as ji per js generuosiu tai tau ten mazai darbo bus, bet tiesiog reikia kad butu kur as galiu tai kelt, also turi but main html nes dabar turim du atskirus tai geriau butu vienas homepage su mygtukais pereitinet, tiek is manes. GL) 
-3. (mykolas) IN PROGRESS parasyt javascripta kad kalkuliuotu ka mum reikia:
-        1. DONE paima data is input fieldu
-        2. DONE apskaiciuoja kiek kas kam perveda
-        3. save
-        4. event planner 
-        5. summary or sth
-4. (greta) NOT STARTED css:
-        1. greta jei nores pati uzsipildys cia, cia jau jos magijos prasides
-	2.(reikia kad graziai atrodytu viskas :) nepamirsk custom klasių kurių nėra htmle - daug ką generuoju per js, ko nėra by default htmle
-
-
-C
-?????????
-XDDDDD
+whats left:
+- finish c modules to read js and css
+- finish c modules to edit js, css, html
+- think of the menu structure
+- implement the menu structure
+- implement file open/save dialogs
+- maybe think of fuzzy search for files (not priority)
+- polish the ui
+- test
+- i think thats it?
