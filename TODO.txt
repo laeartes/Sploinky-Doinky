@@ -1,10 +1,10 @@
 whats left:
-- finish c modules to read js and css
-- finish c modules to edit js, css, html
-- think of the menu structure
-- implement the menu structure
-- implement file open/save dialogs
+- finish c modules to read js and css (html is done)
+- finish c modules to edit js, css, html (literally find and replace)
+- think of the menu structure (file, edit, view, help etc, syntax highlighting is not priority)
+- implement the menu structure 
+- implement file open/save dialogs (just basic ones)
 - maybe think of fuzzy search for files (not priority)
-- polish the ui
-- test
+- polish the ui (make it cute)
+- test everything thoroughly
 - i think thats it?
