@@ -1,10 +1,20 @@
 whats left:
-- finish c modules to read js and css (html is done)
-- finish c modules to edit js, css, html (literally find and replace)
-- think of the menu structure (file, edit, view, help etc, syntax highlighting is not priority)
-- implement the menu structure 
-- implement file open/save dialogs (just basic ones)
-- maybe think of fuzzy search for files (not priority)
-- polish the ui (make it cute)
-- test everything thoroughly
-- i think thats it?
+
+
+priority tasks:
+    - before doing other modules, check css/js to have proper structure (classes, ids, consts etc)
+    - finish c modules to read js and css (html is done)
+    - finish c modules to edit js, css, html (literally find and replace)
+    - think of the menu structure (file, edit, view, help etc)
+    - implement the menu structure 
+    - implement file open/save dialogs (just basic ones)
+    - polish the ui (make it cute)
+    - test everything thoroughly
+    - README UPDATE 
+
+optional tasks:
+    - syntax highlighting
+    - phone support
+    - themes (dark mode, light mode etc)
+    - fuzzy search for files
+    - auto save
