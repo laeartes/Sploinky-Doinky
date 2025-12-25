@@ -15,6 +15,4 @@ priority tasks:
 optional tasks:
     - syntax highlighting
     - phone support
-    - themes (dark mode, light mode etc)
     - fuzzy search for files
-    - auto save
