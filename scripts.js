@@ -1,3 +1,17 @@
+
+/*
+editable consts for C modules
+*/
+
+//placeholders
+const placeholderName = "Name";
+const placeholderPaid = "Amount paid";
+const placeholderRemoveParticipant = "X";
+const transfersTitle = "Transfers";
+const noTransfersText = "All settled up!";
+
+
+
 function init() {
   document
     .getElementById("addPart")
@@ -18,19 +32,19 @@ function addParticipantRow(name = "", paid = "") {
   const nameInput = document.createElement("input");
   nameInput.type = "text";
   nameInput.className = "partName";
-  nameInput.placeholder = "Name";
+  nameInput.placeholder = placeholderName;
   nameInput.value = name;
 
   const paidInput = document.createElement("input");
   paidInput.type = "number";
   paidInput.className = "partPaid";
   paidInput.step = "0.01";
-  paidInput.placeholder = "Amount paid";
+  paidInput.placeholder = placeholderPaid;
   paidInput.value = paid;
 
   const removeBtn = document.createElement("button");
   removeBtn.className = "removePart";
-  removeBtn.textContent = "X";
+  removeBtn.textContent = placeholderRemoveParticipant;
   removeBtn.addEventListener("click", () => row.remove());
 
   row.appendChild(nameInput);
@@ -128,12 +142,12 @@ function renderTransfers(transfers) {
   container.innerHTML = "";
 
   const title = document.createElement('h3');
-  title.textContent = "Pervedimai";
+  title.textContent = transfersTitle;
   container.appendChild(title);
 
   if (transfers.length === 0) {
     const p = document.createElement('p');
-    p.textContent = "allg bro";
+    p.textContent = noTransfersText;
     container.appendChild(p);
     return;
   }

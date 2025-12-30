@@ -3,8 +3,13 @@ whats left:
 
 priority tasks:
     - before doing other modules, check css/js to have proper structure (classes, ids, consts etc)
+        - js is all good, just fixed
+        - looking at css, seems good too. gonna keep it as is for now
     - finish c modules to read js and css (html is done)
+        - js just look at consts (left them at the top for easy access)
+        - css look at classes, ids and other selectors. also :root variables
     - finish c modules to edit js, css, html (literally find and replace)
+        - havent started yet
     - think of the menu structure (file, edit, view, help etc)
     - implement the menu structure 
     - implement file open/save dialogs (just basic ones)
