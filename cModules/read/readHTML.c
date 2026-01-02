@@ -7,7 +7,7 @@ char** getHTMLClassesAndIds(const char* filePath, int* count)
     FILE* file = fopen(filePath, "r");
     if (!file)
     {
-        perror("Could not open file");
+        perror("Could not open the file");
         return NULL;
     }
 
@@ -72,7 +72,7 @@ void freeHTMLResults(char** results, int count)
 int main()
 {
     int count = 0;
-    char** results = getHTMLClassesAndIds("../index.html", &count);
+    char** results = getHTMLClassesAndIds("../../index.html", &count);
 
     for (int i = 0; i < count; i++)
     {
